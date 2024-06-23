@@ -1,3 +1,7 @@
+# Tarea 3 Sistemas Distribuidos: Hive and Pig: Big Data
+
+Integrantes: Felipe Martínez y Nicolás Ojeda
+
 Contenedor Docker ocupado: https://github.com/suhothayan/hadoop-spark-pig-hive
 
 
