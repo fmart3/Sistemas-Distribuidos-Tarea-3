@@ -1,7 +1,7 @@
 Contenedor Docker ocupado: https://github.com/suhothayan/hadoop-spark-pig-hive
 
 
-## Instrucciones para el uso de contenedores Docker con Hadoop, Spark, Pig y Hive
+## Instrucciones
 
 ## 1. Pull del contenedor
 ```bash
