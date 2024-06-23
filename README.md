@@ -122,5 +122,3 @@ branch_type_counts = FOREACH (GROUP branch_traces BY branch_type)
 DUMP branch_type_counts;
 ```
 ```
-
-Este README proporciona una guía clara para iniciar y gestionar el contenedor Docker, así como para ejecutar consultas en Hive y Pig.
