@@ -1,4 +1,4 @@
-# Tarea 3 Sistemas Distribuidos: Hive and Pig: Big Data
+# Sistemas Distribuidos Tarea 3: Hive and Pig - Big Data
 
 Integrantes: Felipe Martínez y Nicolás Ojeda
 
