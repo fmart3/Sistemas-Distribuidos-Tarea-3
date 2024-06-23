@@ -124,4 +124,3 @@ branch_type_counts = FOREACH (GROUP branch_traces BY branch_type)
 
 DUMP branch_type_counts;
 ```
-```
