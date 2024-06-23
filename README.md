@@ -95,9 +95,7 @@ GROUP BY branch_type;
 pig
 ```
 
-### Scripts en Pig
-
-1. Agrupar todos los registros y contar el total
+### Crear tabla y cargar datos
 ```pig
 branch_traces = LOAD '/user/root/input/branch_traces.csv' USING PigStorage(',')
  AS (
@@ -106,7 +104,12 @@ branch_traces = LOAD '/user/root/input/branch_traces.csv' USING PigStorage(',')
     taken:int, 
     target:chararray
 );
+```
 
+### Consultas en Pig
+
+1. Agrupar todos los registros y contar el total
+```pig
 grouped_data = GROUP branch_traces ALL;
 
 records_count = FOREACH grouped_data GENERATE COUNT(branch_traces);
